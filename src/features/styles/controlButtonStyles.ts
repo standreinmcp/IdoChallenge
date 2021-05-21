@@ -7,15 +7,40 @@ export const controlButtonStyles = StyleSheet.create({
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
-        backgroundColor: 'white'
+        backgroundColor: 'white',
+        paddingHorizontal: spacing.size06
     },
     buttonContainer: {
+        width: '100%',
         height: 60,
-        marginHorizontal: spacing.size06,
-        backgroundColor: 'red'
+        backgroundColor: 'red',
+        justifyContent: 'center',
+        alignItems: 'center'
     },
-    buttonTextStyles: {
+    buttonText: {
         fontSize: 24,
-        fontWeight: '600'
-    }
+        fontWeight: '600',
+    },
+    modalContainer: {
+        flex: 1,
+        alignItems: 'center',
+        justifyContent: 'center'
+    },
+    modalTitle: {
+        fontSize: 24,
+        fontWeight: '400',
+    },
+    row: {
+        flexDirection: 'row',
+        alignItems: 'center'
+    },
+    textInput: {
+        height: 40,
+        width: 40,
+        borderRadius: 10,
+        borderWidth: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
+        textAlign: 'center'
+    },
 })
